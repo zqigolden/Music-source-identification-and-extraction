@@ -1,0 +1,12 @@
+{
+    "name": "Pytorch dev env",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "GitHub.copilot"
+    ],
+    "runArgs": ["--runtime=nvidia", "--ipc=host"]
+}
